@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Comic Neue";
+  font-weight: 400;
+  background: #2d3250;
+  color: #dead7d;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  gap: 5px;
+}
+
+.grid-square {
+  background-color: rgb(204, 204, 204);
+  height: 25px;
+  width: 25px;
+  transition-duration: 0.2s;
+}
+
+#menu {
+  margin: 30px 0px;
+}
+
+button {
+  font-size: larger;
+  font-family: "Comic Neue";
+  font-weight: 400;
+}
+
+.grid-row {
+  display: flex;
+  gap: 5px;
+}
+h1 {
+  font-size: 50px;
+}
